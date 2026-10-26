@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://localhost:8080/';
+    public string $baseURL = 'http://localhost/sistemalocal26-3/public/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * E.g.,
      * When your site URL ($baseURL) is 'http://example.com/', and your site
-     * also accepts 'http://media.example.com/' and 'http://accounts.example.com/':
+     * public $baseURL = 'http://localhost/sistemalocal26-3/public/';
      *     ['media.example.com', 'accounts.example.com']
      *
      * @var list<string>
@@ -40,7 +40,7 @@ class App extends BaseConfig
      * something else. If you have configured your web server to remove this file
      * from your site URIs, set this variable to an empty string.
      */
-    public string $indexPage = 'index.php';
+    public string $indexPage = '';
 
     /**
      * --------------------------------------------------------------------------
