@@ -1,43 +1,15 @@
 <?php
-
 namespace App\Controllers;
-
-class Auth extends BaseController
-{
-    public function index()
-    {
-        return view('login');
+class Auth extends BaseController {
+  public function login(){ return view('login'); }
+  public function validar(){
+    $db = \Config\Database::connect();
+    $user = $db->table('usuarios')->where('usuario', $this->request->getPost('usuario'))->get()->getRow();
+    if($user && password_verify($this->request->getPost('password'), $user->password)){
+      session()->set(['logged_in'=>true, 'usuario'=>$user->usuario]);
+      return redirect()->to('/dashboard');
     }
-
-    public function ingresar()
-    {
-        $usuario = $this->request->getPost('usuario');
-        $password = $this->request->getPost('password');
-
-        if (empty($usuario) || empty($password)) {
-            return redirect()->to('/login')
-                ->with('error', 'Complete todos los campos');
-        }
-
-        // Ejemplo de acceso para realizar pruebas
-        if ($usuario === 'Manuel' && $password === '123456789') {
-
-            session()->set([
-                'usuario' => $usuario,
-                'logueado' => true
-            ]);
-
-            return redirect()->to('/dashboard');
-        }
-
-        return redirect()->to('/login')
-            ->with('error', 'Usuario o contraseña incorrectos');
-    }
-
-    public function salir()
-    {
-        session()->destroy();
-
-        return redirect()->to('/login');
-    }
+    return redirect()->to('/login')->with('error','Usuario o clave incorrecta');
+  }
+  public function logout(){ session()->destroy(); return redirect()->to('/login'); }
 }
