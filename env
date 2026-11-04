@@ -1,9 +1,41 @@
+#--------------------------------------------------------------------
+# MODO PARA VER EL ERROR REAL
+#--------------------------------------------------------------------
 CI_ENVIRONMENT = development
+
+#--------------------------------------------------------------------
+# URL DE TU PROYECTO - NO LE CAMBIES NADA
+#--------------------------------------------------------------------
 app.baseURL = 'http://localhost/sistemalocal26-3/public/'
+app.forceGlobalSecureRequests = false
+app.CSPEnabled = false
+
+#--------------------------------------------------------------------
+# BASE DE DATOS - LA QUE CREASTE EN PHPMYADMIN
+#--------------------------------------------------------------------
 database.default.hostname = localhost
-database.default.database = sistemalocal26-3
+database.default.database = registro_alumnos
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
-security.csrfProtection = false
+database.default.port = 3306
+database.default.charset = utf8
+database.default.DBCollat = utf8_general_ci
+database.default.swapPre = 
+database.default.encrypt = false
+database.default.compress = false
+database.default.strictOn = false
+database.default.failover = []
+database.default.port = 3306
+
+#--------------------------------------------------------------------
+# SESSION
+#--------------------------------------------------------------------
+session.driver = File
+session.cookieName = ci_session
+session.expiration = 7200
+session.savePath = null
+session.matchIP = false
+session.timeToUpdate = 300
+session.regenerateDestroy = false
