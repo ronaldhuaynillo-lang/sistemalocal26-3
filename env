@@ -1,34 +1,8 @@
 CI_ENVIRONMENT = development
-
-app.baseURL = 'http://localhost/systemalocal26-3/public/'
-app.indexPage = ''
-app.defaultLocale = 'es'
-app.appTimezone = 'America/Lima'
-app.charset = 'UTF-8'
-
-# BASE DE DATOS
-database.default.hostname = localhost
-database.default.database = registro_alumnos
+app.baseURL = 'http://localhost/sistemalocal26-3/public/'
+database.default.hostname = 127.0.0.1
+database.default.database = sistemalocal26-3
 database.default.username = root
 database.default.password =
 database.default.DBDriver = MySQLi
 database.default.DBPrefix =
-database.default.port = 3306
-database.default.charset = utf8mb4
-database.default.DBCollat = utf8mb4_general_ci
-database.default.DBDebug = true
-
-# SESIONES
-session.driver = 'CodeIgniter\Session\Handlers\FileHandler'
-session.cookieName = 'ci_session'
-session.expiration = 7200
-session.savePath = WRITEPATH . 'session'
-session.matchIP = false
-session.timeToUpdate = 300
-session.regenerateDestroy = false
-
-# SEGURIDAD
-security.csrfProtection = 'session'
-
-# REGISTRO DE ERRORES
-logger.threshold = 4

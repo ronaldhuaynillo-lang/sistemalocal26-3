@@ -1,0 +1,620 @@
+CRITICAL - 2026-11-09 15:38:11 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Auth.php(4): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-09 15:48:05 --> Error connecting to the database: mysqli_sql_exception: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-11-09 15:50:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Auth.php(4): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-09 15:57:44 --> Error connecting to the database: mysqli_sql_exception: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 15:58:57 --> Error connecting to the database: mysqli_sql_exception: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Plugin 'mysql_native_password' is not loaded in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 16:17:04 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 16:26:00 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 16:33:17 --> Error connecting to the database: mysqli_sql_exception: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 16:36:34 --> Error connecting to the database: mysqli_sql_exception: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+ERROR - 2026-11-09 16:37:42 --> Error connecting to the database: mysqli_sql_exception: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#9 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#13 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#14 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1706): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(1726): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(821): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\wamp64\www\sistemalocal26-3\system\Database\MigrationRunner.php(173): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(89): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#7 C:\wamp64\www\sistemalocal26-3\system\CLI\SignalTrait.php(245): CodeIgniter\Commands\Database\Migrate::CodeIgniter\Commands\Database\{closure}()
+#8 C:\wamp64\www\sistemalocal26-3\system\Commands\Database\Migrate.php(88): CodeIgniter\Commands\Database\Migrate->withSignalsBlocked(Object(Closure))
+#9 C:\wamp64\www\sistemalocal26-3\system\CLI\Commands.php(72): CodeIgniter\Commands\Database\Migrate->run(Array)
+#10 C:\wamp64\www\sistemalocal26-3\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(444): CodeIgniter\CLI\Console->run()
+#12 C:\wamp64\www\sistemalocal26-3\system\Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#13 C:\wamp64\www\sistemalocal26-3\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2026-11-09 17:36:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Auth.php(4): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 17:43:38 --> InvalidArgumentException: Invalid session handler "file" provided.
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\Services.php on line 695.
+ 1 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 2 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 3 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 4 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 6 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('session')
+ 7 SYSTEMPATH\Common.php(1069): service('session')
+ 8 APPPATH\Views\login_view.php(70): session()
+ 9 SYSTEMPATH\View\View.php(240): include('C:\\wamp64\\www\\sistemalocal26-3\\app\\Views\\login_view.php')
+10 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login_view', [], true)
+12 APPPATH\Controllers\Auth.php(5): view('login_view')
+13 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+14 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+15 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+18 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 17:46:35 --> InvalidArgumentException: Invalid session handler "file" provided.
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\Services.php on line 695.
+ 1 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 2 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 3 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 4 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 6 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('session')
+ 7 SYSTEMPATH\Common.php(1069): service('session')
+ 8 APPPATH\Controllers\Auth.php(7): session()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 17:50:59 --> InvalidArgumentException: Invalid session handler "file" provided.
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\Services.php on line 695.
+ 1 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 2 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 3 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 4 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 6 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('session')
+ 7 SYSTEMPATH\Common.php(1069): service('session')
+ 8 APPPATH\Controllers\Auth.php(7): session()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 17:51:40 --> InvalidArgumentException: Invalid session handler "file" provided.
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\Services.php on line 695.
+ 1 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 2 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 3 SYSTEMPATH\Config\Services.php(668): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 4 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::session()
+ 5 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 6 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('session')
+ 7 SYSTEMPATH\Common.php(1069): service('session')
+ 8 APPPATH\Controllers\Auth.php(7): session()
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-09 17:55:55 --> Error: Class "Config\Database" not found
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Toolbar\Collectors\Database.php on line 255.
+ 1 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 2 SYSTEMPATH\Debug\Toolbar.php(67): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 3 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 4 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 5 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 6 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 7 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 8 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 9 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+10 APPPATH\Config\Events.php(49): service('toolbar')
+11 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+12 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 17:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 17:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 17:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 17:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 17:57:14 --> Error connecting to the database: mysqli_sql_exception: Host '127.0.0.1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'sistemalocal26-...', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#9 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '127.0.0.1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-11-09 17:57:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '127.0.0.1' is not allowed to connect to this MySQL server
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 17:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 17:57:36 --> Error connecting to the database: mysqli_sql_exception: Host '127.0.0.1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'sistemalocal26-...', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#9 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '127.0.0.1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-11-09 17:57:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '127.0.0.1' is not allowed to connect to this MySQL server
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 18:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:00:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 18:02:59 --> Error connecting to the database: mysqli_sql_exception: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sistemalocal', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#9 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-11-09 18:02:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '::1' is not allowed to connect to this MySQL server
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-09 18:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-09 18:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-11-09 18:03:27 --> Error connecting to the database: mysqli_sql_exception: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sistemalocal', 3306, '', 0)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#9 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Host '::1' is not allowed to connect to this MySQL server in C:\wamp64\www\sistemalocal26-3\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(555): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\wamp64\www\sistemalocal26-3\system\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\wamp64\www\sistemalocal26-3\system\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\wamp64\www\sistemalocal26-3\system\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\wamp64\www\sistemalocal26-3\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\wamp64\www\sistemalocal26-3\app\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+#6 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+#7 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+#8 C:\wamp64\www\sistemalocal26-3\system\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\sistemalocal26-3\system\Boot.php(417): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\sistemalocal26-3\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\wamp64\www\sistemalocal26-3\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2026-11-09 18:03:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Host '::1' is not allowed to connect to this MySQL server
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Database\BaseConnection.php on line 606.
+ 1 SYSTEMPATH\Database\BaseConnection.php(795): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 3 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Alumnos.php(10): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

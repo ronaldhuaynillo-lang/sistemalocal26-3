@@ -1,15 +1,33 @@
 <?php
 namespace App\Controllers;
-class Auth extends BaseController {
-  public function login(){ return view('login'); }
-  public function validar(){
-    $db = \Config\Database::connect();
-    $user = $db->table('usuarios')->where('usuario', $this->request->getPost('usuario'))->get()->getRow();
-    if($user && password_verify($this->request->getPost('password'), $user->password)){
-      session()->set(['logged_in'=>true, 'usuario'=>$user->usuario]);
-      return redirect()->to('/dashboard');
+class Auth extends BaseController
+{
+    public function login()
+    {
+        if (session()->get('autenticado') === true) {
+            return redirect()->to(site_url('dashboard'));
+        }
+        return view('login_view');
     }
-    return redirect()->to('/login')->with('error','Usuario o clave incorrecta');
-  }
-  public function logout(){ session()->destroy(); return redirect()->to('/login'); }
+
+    public function intentarLogin()
+    {
+        $usuario = $this->request->getPost('usuario');
+        $password = $this->request->getPost('password');
+
+        if ($usuario == 'admin' && $password == 'admin123') {
+            session()->set([
+                'autenticado' => true,
+                'usuario' => $usuario
+            ]);
+            return redirect()->to(site_url('dashboard'));
+        }
+        return redirect()->back()->with('error', 'Usuario o contraseña incorrectos');
+    }
+
+    public function logout()
+    {
+        session()->destroy();
+        return redirect()->to(site_url('login'));
+    }
 }

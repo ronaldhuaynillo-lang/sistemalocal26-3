@@ -1,0 +1,307 @@
+<?php return array (
+  'search' => 
+  array (
+    'Config/Services' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Services.php',
+          1 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Config\\Services.php',
+        ),
+      ),
+    ),
+    'Config/Registrar.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/kint_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\kint_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/url_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\url_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/filesystem_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\filesystem_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/array_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\array_helper.php',
+        ),
+      ),
+    ),
+    'Config/Routes.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Routes.php',
+        ),
+      ),
+    ),
+    'Config/Events.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Events.php',
+        ),
+      ),
+    ),
+    'Language/en/Migrations.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Language\\en\\Migrations.php',
+        ),
+      ),
+    ),
+    'Config/Filters.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Filters.php',
+          1 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Config\\Filters.php',
+        ),
+      ),
+    ),
+    'Language/en/Core.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Language\\en\\Core.php',
+        ),
+      ),
+    ),
+    'Language/en/Errors.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Language\\en\\Errors.php',
+        ),
+      ),
+    ),
+    'Helpers/number_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\number_helper.php',
+        ),
+      ),
+    ),
+    'Language/en/Number.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Language\\en\\Number.php',
+        ),
+      ),
+    ),
+    'Helpers/security_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Helpers\\security_helper.php',
+        ),
+      ),
+    ),
+  ),
+  'findQualifiedNameFromPath' => 
+  array (
+    'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Services.php' => 'Config\\Services',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Cache\\ClearCache.php' => 'CodeIgniter\\Commands\\Cache\\ClearCache',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Cache\\InfoCache.php' => 'CodeIgniter\\Commands\\Cache\\InfoCache',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\CreateDatabase.php' => 'CodeIgniter\\Commands\\Database\\CreateDatabase',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\Migrate.php' => 'CodeIgniter\\Commands\\Database\\Migrate',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateRefresh.php' => 'CodeIgniter\\Commands\\Database\\MigrateRefresh',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateRollback.php' => 'CodeIgniter\\Commands\\Database\\MigrateRollback',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateStatus.php' => 'CodeIgniter\\Commands\\Database\\MigrateStatus',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\Seed.php' => 'CodeIgniter\\Commands\\Database\\Seed',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\ShowTableInfo.php' => 'CodeIgniter\\Commands\\Database\\ShowTableInfo',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Encryption\\GenerateKey.php' => 'CodeIgniter\\Commands\\Encryption\\GenerateKey',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\CellGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CellGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\CommandGenerator.php' => 'CodeIgniter\\Commands\\Generators\\CommandGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ConfigGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ConfigGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ControllerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ControllerGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\EntityGenerator.php' => 'CodeIgniter\\Commands\\Generators\\EntityGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\FilterGenerator.php' => 'CodeIgniter\\Commands\\Generators\\FilterGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\MigrationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\MigrationGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ModelGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ModelGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ScaffoldGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ScaffoldGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\SeederGenerator.php' => 'CodeIgniter\\Commands\\Generators\\SeederGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\TestGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TestGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\TransformerGenerator.php' => 'CodeIgniter\\Commands\\Generators\\TransformerGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ValidationGenerator.php' => 'CodeIgniter\\Commands\\Generators\\ValidationGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\cell.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\cell_view.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\command.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\config.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\controller.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\entity.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\filter.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\migration.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\model.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\seeder.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\test.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\transformer.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\validation.tpl.php' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Help.php' => 'CodeIgniter\\Commands\\Help',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Housekeeping\\ClearDebugbar.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearDebugbar',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Housekeeping\\ClearLogs.php' => 'CodeIgniter\\Commands\\Housekeeping\\ClearLogs',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\ListCommands.php' => 'CodeIgniter\\Commands\\ListCommands',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Server\\Serve.php' => 'CodeIgniter\\Commands\\Server\\Serve',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Translation\\LocalizationFinder.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationFinder',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Translation\\LocalizationSync.php' => 'CodeIgniter\\Commands\\Translation\\LocalizationSync',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\ConfigCheck.php' => 'CodeIgniter\\Commands\\Utilities\\ConfigCheck',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Environment.php' => 'CodeIgniter\\Commands\\Utilities\\Environment',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\FilterCheck.php' => 'CodeIgniter\\Commands\\Utilities\\FilterCheck',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Namespaces.php' => 'CodeIgniter\\Commands\\Utilities\\Namespaces',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Optimize.php' => 'CodeIgniter\\Commands\\Utilities\\Optimize',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\PhpIniCheck.php' => 'CodeIgniter\\Commands\\Utilities\\PhpIniCheck',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Publish.php' => 'CodeIgniter\\Commands\\Utilities\\Publish',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes.php' => 'CodeIgniter\\Commands\\Utilities\\Routes',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouteCollector',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\ControllerFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerFinder',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\ControllerMethodReader.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\ControllerMethodReader',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\FilterCollector.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterCollector',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\FilterFinder.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\FilterFinder',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\SampleURIGenerator.php' => 'CodeIgniter\\Commands\\Utilities\\Routes\\SampleURIGenerator',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\Views\\Caddyfile.tpl' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\Views\\frankenphp-worker.php.tpl' => false,
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\WorkerInstall.php' => 'CodeIgniter\\Commands\\Worker\\WorkerInstall',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\WorkerUninstall.php' => 'CodeIgniter\\Commands\\Worker\\WorkerUninstall',
+  ),
+  'listFiles' => 
+  array (
+    'Commands/' => 
+    array (
+      0 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Cache\\ClearCache.php',
+      1 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Cache\\InfoCache.php',
+      2 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\CreateDatabase.php',
+      3 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\Migrate.php',
+      4 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateRefresh.php',
+      5 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateRollback.php',
+      6 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\MigrateStatus.php',
+      7 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\Seed.php',
+      8 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Database\\ShowTableInfo.php',
+      9 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Encryption\\GenerateKey.php',
+      10 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\CellGenerator.php',
+      11 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\CommandGenerator.php',
+      12 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ConfigGenerator.php',
+      13 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ControllerGenerator.php',
+      14 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\EntityGenerator.php',
+      15 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\FilterGenerator.php',
+      16 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\MigrationGenerator.php',
+      17 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ModelGenerator.php',
+      18 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ScaffoldGenerator.php',
+      19 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\SeederGenerator.php',
+      20 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\TestGenerator.php',
+      21 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\TransformerGenerator.php',
+      22 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\ValidationGenerator.php',
+      23 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\cell.tpl.php',
+      24 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\cell_view.tpl.php',
+      25 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\command.tpl.php',
+      26 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\config.tpl.php',
+      27 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\controller.tpl.php',
+      28 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\entity.tpl.php',
+      29 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\filter.tpl.php',
+      30 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\migration.tpl.php',
+      31 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\model.tpl.php',
+      32 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\seeder.tpl.php',
+      33 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\test.tpl.php',
+      34 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\transformer.tpl.php',
+      35 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Generators\\Views\\validation.tpl.php',
+      36 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Help.php',
+      37 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Housekeeping\\ClearDebugbar.php',
+      38 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Housekeeping\\ClearLogs.php',
+      39 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\ListCommands.php',
+      40 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Server\\Serve.php',
+      41 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Translation\\LocalizationFinder.php',
+      42 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Translation\\LocalizationSync.php',
+      43 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\ConfigCheck.php',
+      44 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Environment.php',
+      45 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\FilterCheck.php',
+      46 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Namespaces.php',
+      47 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Optimize.php',
+      48 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\PhpIniCheck.php',
+      49 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Publish.php',
+      50 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes.php',
+      51 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouteCollector.php',
+      52 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\AutoRouteCollector.php',
+      53 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\AutoRouterImproved\\ControllerMethodReader.php',
+      54 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\ControllerFinder.php',
+      55 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\ControllerMethodReader.php',
+      56 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\FilterCollector.php',
+      57 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\FilterFinder.php',
+      58 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Utilities\\Routes\\SampleURIGenerator.php',
+      59 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\Views\\Caddyfile.tpl',
+      60 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\Views\\frankenphp-worker.php.tpl',
+      61 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\WorkerInstall.php',
+      62 => 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Commands\\Worker\\WorkerUninstall.php',
+    ),
+  ),
+  'getClassname' => 
+  array (
+    'C:\\wamp64\\www\\sistemalocal26-3\\app\\Config\\Filters.php' => 'Config\\Filters',
+    'C:\\wamp64\\www\\sistemalocal26-3\\system\\Config\\Filters.php' => 'CodeIgniter\\Config\\Filters',
+  ),
+  'locateFile' => 
+  array (
+    'login.php' => 
+    array (
+      'Views' => 
+      array (
+        'php' => false,
+      ),
+    ),
+  ),
+);
