@@ -5,6 +5,7 @@ class Alumnos extends BaseController
 {
     public function index(){
         $model = new AlumnoModel();
+        #cambio en ambiente local
         $alumnos = $model->findAll();
         return view('alumnos/index',['alumnos'=>$alumnos]);
     }
