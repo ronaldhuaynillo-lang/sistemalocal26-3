@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 namespace App\Controllers;
 use App\Models\AlumnoModel;
 class Alumnos extends BaseController
