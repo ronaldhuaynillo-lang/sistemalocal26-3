@@ -1,0 +1,8 @@
+CI_ENVIRONMENT = development
+app.baseURL = app.baseURL = http://localhost/sistemalocal26-3/public/
+database.default.hostname = 127.0.0.1
+database.default.database = sistemalocal26-3
+database.default.username = root
+database.default.password =
+database.default.DBDriver = MySQLi
+database.default.DBPrefix =

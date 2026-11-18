@@ -1,0 +1,1635 @@
+CRITICAL - 2026-11-10 14:35:18 --> Error: Class "Config\Toolbar" not found
+[Method: GET, Route: login]
+in ROOTPATH\writable\cache\FactoriesCache_config on line 350.
+ 1 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include()
+ 2 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 3 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 4 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 5 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 14:35:19 --> Error: Class "Config\Toolbar" not found
+[Method: GET, Route: login]
+in ROOTPATH\writable\cache\FactoriesCache_config on line 350.
+ 1 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include()
+ 2 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 3 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 4 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 5 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 14:47:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Auth.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 14:51:13 --> TypeError: CodeIgniter\Debug\Toolbar::__construct(): Argument #1 ($config) must be of type Config\Toolbar, null given, called in C:\wamp64\www\sistemalocal26-3\system\Config\Services.php on line 804
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 52.
+ 1 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(null, false)
+ 3 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 5 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 6 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 7 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+ 8 APPPATH\Config\Events.php(49): service('toolbar')
+ 9 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+10 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 14:56:31 --> TypeError: CodeIgniter\Debug\Toolbar::__construct(): Argument #1 ($config) must be of type Config\Toolbar, null given, called in C:\wamp64\www\sistemalocal26-3\system\Config\Services.php on line 804
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 52.
+ 1 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(null, false)
+ 3 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 5 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 6 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 7 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+ 8 APPPATH\Config\Events.php(49): service('toolbar')
+ 9 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+10 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 14:56:34 --> TypeError: CodeIgniter\Debug\Toolbar::__construct(): Argument #1 ($config) must be of type Config\Toolbar, null given, called in C:\wamp64\www\sistemalocal26-3\system\Config\Services.php on line 804
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 52.
+ 1 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(null, false)
+ 3 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 5 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 6 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 7 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+ 8 APPPATH\Config\Events.php(49): service('toolbar')
+ 9 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+10 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 15:36:11 --> TypeError: CodeIgniter\Debug\Toolbar::__construct(): Argument #1 ($config) must be of type Config\Toolbar, null given, called in C:\wamp64\www\sistemalocal26-3\system\Config\Services.php on line 804
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 52.
+ 1 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(null)
+ 2 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(null, false)
+ 3 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 4 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 5 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 6 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 7 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+ 8 APPPATH\Config\Events.php(49): service('toolbar')
+ 9 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+10 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 15:43:05 --> Error: Class "Config\Database" not found
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\Database.php on line 255.
+ 1 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 2 SYSTEMPATH\Debug\Toolbar.php(67): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 3 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 4 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 5 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 6 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 7 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 8 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 9 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+10 APPPATH\Config\Events.php(49): service('toolbar')
+11 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+12 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 15:44:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "login.php"
+[Method: GET, Route: /]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\Auth.php(9): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Auth->login()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:48:57 --> ErrorException: Undefined property: Config\Toolbar::$collectVarData
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 339.
+ 1 SYSTEMPATH\Debug\Toolbar.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$collectVarData', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 339)
+ 2 SYSTEMPATH\Debug\Toolbar.php(98): CodeIgniter\Debug\Toolbar->collectVarData()
+ 3 SYSTEMPATH\Debug\Toolbar.php(390): CodeIgniter\Debug\Toolbar->run(1794325737.108719, 0.2666, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(44): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 5 SYSTEMPATH\Filters\Filters.php(278): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 6 SYSTEMPATH\Filters\Filters.php(364): CodeIgniter\Filters\Filters->runAfter([...])
+ 7 SYSTEMPATH\CodeIgniter.php(416): CodeIgniter\Filters\Filters->runRequired('after')
+ 8 SYSTEMPATH\CodeIgniter.php(377): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:49:08 --> ErrorException: Undefined property: Config\Toolbar::$collectVarData
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Toolbar.php on line 339.
+ 1 SYSTEMPATH\Debug\Toolbar.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$collectVarData', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 339)
+ 2 SYSTEMPATH\Debug\Toolbar.php(98): CodeIgniter\Debug\Toolbar->collectVarData()
+ 3 SYSTEMPATH\Debug\Toolbar.php(390): CodeIgniter\Debug\Toolbar->run(1794325748.039087, 0.0354, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(44): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 5 SYSTEMPATH\Filters\Filters.php(278): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 6 SYSTEMPATH\Filters\Filters.php(364): CodeIgniter\Filters\Filters->runAfter([...])
+ 7 SYSTEMPATH\CodeIgniter.php(416): CodeIgniter\Filters\Filters->runRequired('after')
+ 8 SYSTEMPATH\CodeIgniter.php(377): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:50:00 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:50:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:50:05 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:56:26 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 15:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:56:51 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:57:35 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:57:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:57:38 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:57:41 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:57:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:57:42 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 15:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 15:57:43 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:01:11 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:01:14 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:01:15 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:01:16 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:01:18 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:06:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:06:56 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 16:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:06:59 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:15:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:15:30 --> ErrorException: include(C:\wamp64\www\sistemalocal26-3\app\Views/toolbarloader.js): Failed to open stream: No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(C:\\wamp64\\www\\sistemalocal26-3\\app\\Views/toolbarloader.js): Failed to open stream: No such file or directory', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 SYSTEMPATH\Debug\Toolbar.php(472): include()
+ 3 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 4 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 5 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 6 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 16:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:15:33 --> ErrorException: Undefined property: Config\Toolbar::$maxQueries
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Debug\Toolbar\Collectors\Database.php on line 91.
+ 1 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$maxQueries', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar\\Collectors\\Database.php', 91)
+ 2 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 3 SYSTEMPATH\Database\BaseConnection.php(882): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Alumnos.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+DEBUG - 2026-11-10 16:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 16:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 16:16:17 --> ErrorException: Undefined property: Config\Toolbar::$maxQueries
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Debug\Toolbar\Collectors\Database.php on line 91.
+ 1 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$maxQueries', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar\\Collectors\\Database.php', 91)
+ 2 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Debug\Toolbar\Collectors\Database::collect(Object(CodeIgniter\Database\Query))
+ 3 SYSTEMPATH\Database\BaseConnection.php(882): CodeIgniter\Events\Events::trigger('DBQuery', Object(CodeIgniter\Database\Query))
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1659): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `alumnos`', [], false)
+ 5 SYSTEMPATH\Model.php(255): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Alumnos.php(13): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 9 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 16:19:18 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:19:19 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:23:57 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:23:59 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 16:24:03 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\wamp64\\www\\sistemalocal26-3\\public\\index.php')
+CRITICAL - 2026-11-10 16:33:19 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:33:20 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:35:50 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:35:52 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:40:01 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:40:05 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:40:07 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:44:00 --> TypeError: Cannot assign null to property Config\Toolbar::$enabled of type bool
+[Method: GET, Route: login]
+in SYSTEMPATH\Config\BaseConfig.php on line 82.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(350): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include('C:\\wamp64\\www\\sistemalocal26-3\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 16:44:21 --> Error: Class "Config\Toolbar" not found
+[Method: GET, Route: login]
+in ROOTPATH\writable\cache\FactoriesCache_config on line 350.
+ 1 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(55): include()
+ 2 SYSTEMPATH\Cache\FactoriesCache.php(48): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 3 SYSTEMPATH\Boot.php(391): CodeIgniter\Cache\FactoriesCache->load('config')
+ 4 SYSTEMPATH\Boot.php(62): CodeIgniter\Boot::loadConfigCache()
+ 5 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:18:03 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: login]
+in APPPATH\Config\Toolbar.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-10 17:18:35 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: login]
+in APPPATH\Config\Toolbar.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-10 17:20:24 --> ErrorException: Undefined property: Config\Toolbar::$collectors
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Toolbar.php on line 56.
+ 1 SYSTEMPATH\Debug\Toolbar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$collectors', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 56)
+ 2 SYSTEMPATH\Config\Services.php(804): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 3 SYSTEMPATH\Config\BaseService.php(325): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 4 SYSTEMPATH\Config\BaseService.php(264): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 5 SYSTEMPATH\Config\Services.php(799): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+ 6 SYSTEMPATH\Config\BaseService.php(334): CodeIgniter\Config\Services::toolbar()
+ 7 SYSTEMPATH\Config\BaseService.php(203): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+ 8 SYSTEMPATH\Common.php(1096): CodeIgniter\Config\BaseService::get('toolbar')
+ 9 APPPATH\Config\Events.php(49): service('toolbar')
+10 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+11 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:21:22 --> ErrorException: Undefined property: Config\Toolbar::$collectVarData
+[Method: GET, Route: login]
+in SYSTEMPATH\Debug\Toolbar.php on line 339.
+ 1 SYSTEMPATH\Debug\Toolbar.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$collectVarData', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 339)
+ 2 SYSTEMPATH\Debug\Toolbar.php(98): CodeIgniter\Debug\Toolbar->collectVarData()
+ 3 SYSTEMPATH\Debug\Toolbar.php(390): CodeIgniter\Debug\Toolbar->run(1794331282.715678, 0.0558, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 4 SYSTEMPATH\Filters\DebugToolbar.php(44): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+ 5 SYSTEMPATH\Filters\Filters.php(278): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), null)
+ 6 SYSTEMPATH\Filters\Filters.php(364): CodeIgniter\Filters\Filters->runAfter([...])
+ 7 SYSTEMPATH\CodeIgniter.php(416): CodeIgniter\Filters\Filters->runRequired('after')
+ 8 SYSTEMPATH\CodeIgniter.php(377): CodeIgniter\CodeIgniter->runRequiredAfterFilters(Object(CodeIgniter\Filters\Filters))
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:30:50 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:30:54 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alumnos/index.php"
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alumnos/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('alumnos/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(9): view('alumnos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:31:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "alumnos/index.php"
+[Method: GET, Route: alumnos]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('alumnos/index.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('alumnos/index', [], true)
+ 3 APPPATH\Controllers\Alumnos.php(9): view('alumnos/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:33:40 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:34:24 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:34:25 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:34:55 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:38:01 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: alumnos/create]
+in APPPATH\Controllers\Alumnos.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-10 17:38:04 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: GET, Route: alumnos/create]
+in APPPATH\Controllers\Alumnos.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2026-11-10 17:38:54 --> ParseError: syntax error, unexpected token "="
+[Method: GET, Route: alumnos/create]
+in APPPATH\Controllers\Alumnos.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\sistemalocal26-3\\app\\Controllers\\Alumnos.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Alumnos')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Alumnos')
+ 4 SYSTEMPATH\Router\AutoRouterImproved.php(174): class_exists('\\App\\Controllers\\Alumnos')
+ 5 SYSTEMPATH\Router\AutoRouterImproved.php(282): CodeIgniter\Router\AutoRouterImproved->searchFirstController()
+ 6 SYSTEMPATH\Router\Router.php(592): CodeIgniter\Router\AutoRouterImproved->getRoute('alumnos/create', 'get')
+ 7 SYSTEMPATH\Router\Router.php(243): CodeIgniter\Router\Router->autoRoute('alumnos/create')
+ 8 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('alumnos/create')
+ 9 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+10 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:42:18 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:42:52 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:42:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:42:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:42:52 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:46:02 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:46:05 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:46:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:46:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:46:05 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:47:24 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:24 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:47:56 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:47:56 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:48:00 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:48:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:48:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:48:00 --> [Caused by] mysqli_sql_exception: Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:50:44 --> Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:50:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:50:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:50:44 --> [Caused by] mysqli_sql_exception: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:50:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:50:47 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:50:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-11-10 17:51:43 --> ErrorException: Undefined property: Config\Toolbar::$viewsPath
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar.php on line 472.
+ 1 SYSTEMPATH\Debug\Toolbar.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Toolbar::$viewsPath', 'C:\\wamp64\\www\\sistemalocal26-3\\system\\Debug\\Toolbar.php', 472)
+ 2 APPPATH\Config\Events.php(49): CodeIgniter\Debug\Toolbar->respond()
+ 3 SYSTEMPATH\Events\Events.php(152): CodeIgniter\Events\Events::Config\{closure}()
+ 4 SYSTEMPATH\CodeIgniter.php(348): CodeIgniter\Events\Events::trigger('pre_system')
+ 5 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:51:52 --> Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:51:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:51:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:51:52 --> [Caused by] mysqli_sql_exception: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:53:08 --> ErrorException: Namespace declaration statement has to be the very first statement or after any declare call in the script
+[Method: POST, Route: alumnos/guardar]
+in APPPATH\Models\AlumnoModel.php on line 2.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+ERROR - 2026-11-10 17:53:59 --> Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:53:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:53:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:53:59 --> [Caused by] mysqli_sql_exception: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2026-11-10 17:54:26 --> Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:54:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+[Method: POST, Route: alumnos/guardar]
+in SYSTEMPATH\Database\BaseConnection.php on line 863.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 2 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+ 8 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:54:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 4 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+10 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+11 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-11-10 17:54:26 --> [Caused by] mysqli_sql_exception: Unknown column 'curso' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 300.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(300): mysqli->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(908): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(825): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (\'Ronald Huaynillo\', \'60457851\', \'Ofimatica\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2355): CodeIgniter\Database\BaseConnection->query('INSERT INTO `alumnos` (`nombre`, `dni`, `curso`) VALUES (:nombre:, :dni:, :curso:)', [...], false)
+ 5 SYSTEMPATH\Model.php(357): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(899): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(670): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(752): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\Alumnos.php(16): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Alumnos->guardar()
+11 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Alumnos))
+12 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:57:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2026-11-10 17:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
